@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="username" value="ToolsQA"/>
+  <parameter name="password" value="TestPassword"/>
+  <parameter name="URI" value="http://restapi.demoqa.com/authentication/CheckForAuthentication"/>
+  <parameter name="posturl" value="http://localhost:3000/posts"/>
+  <parameter name="puturl" value="http://localhost:3000/posts/3"/>
+  <parameter name="deleteurl" value="http://localhost:3000/posts/4"/>
+  <parameter name="geturl" value="http://localhost:3000/posts"/>
+  <parameter name="workbookpath" value="C:\\\\mySelenium\\\\projects\\\\RestAssuredLearning\\\\src\\\\test\\\\resources\\\\InputBook.xlsx" />
+    <parameter name="postsheet" value="Post" />
+    <classes>
+   
+       <class name="RestBasics.restPost"/>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
