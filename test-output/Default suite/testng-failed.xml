@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestBasics.Authorization">
+      <class name="RestBasics.restGet">
         <methods>
-          <include name="authorize"/>
-          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="getlocal"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- RestBasics.Authorization -->
+      </class> <!-- RestBasics.restGet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="posturl" value="http://localhost:3000/posts"/>
+    <parameter name="geturl" value="http://localhost:3000/comments"/>
     <parameter name="password" value="TestPassword"/>
+    <parameter name="puturl" value="http://localhost:3000/posts/3"/>
+    <parameter name="postsheet" value="Post"/>
+    <parameter name="deleteurl" value="http://localhost:3000/posts/4"/>
+    <parameter name="workbookpath" value="C:\\\\mySelenium\\\\projects\\\\RestAssuredLearning\\\\src\\\\test\\\\resources\\\\InputBook.xlsx"/>
     <parameter name="URI" value="http://restapi.demoqa.com/authentication/CheckForAuthentication"/>
     <parameter name="username" value="ToolsQA"/>
     <classes>
       <class name="RestBasics.restGet">
         <methods>
           <include name="afterMethod"/>
-          <include name="getlocal"/>
+          <include name="getlocal" invocation-numbers="0"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- RestBasics.restGet -->
-      <class name="RestBasics.restDelete">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="delete"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- RestBasics.restDelete -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

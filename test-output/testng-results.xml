@@ -2,41 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3471" started-at="2020-06-05T17:36:01 EDT" finished-at="2020-06-05T17:36:04 EDT">
+  <suite name="Suite" duration-ms="2447" started-at="2020-06-08T11:16:19 EDT" finished-at="2020-06-08T11:16:22 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3471" started-at="2020-06-05T17:36:01 EDT" finished-at="2020-06-05T17:36:04 EDT">
-      <class name="RestBasics.restPost">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:RestBasics.restPost@1f554b06]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-06-05T17:36:01 EDT" finished-at="2020-06-05T17:36:01 EDT">
+    <test name="Test" duration-ms="2447" started-at="2020-06-08T11:16:19 EDT" finished-at="2020-06-08T11:16:22 EDT">
+      <class name="RestBasics.restGet">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:RestBasics.restGet@d44fc21]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-06-08T11:16:19 EDT" finished-at="2020-06-08T11:16:19 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="putdata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RestBasics.restPost@1f554b06]" name="putdata" duration-ms="3402" started-at="2020-06-05T17:36:01 EDT" finished-at="2020-06-05T17:36:04 EDT">
+        <test-method status="PASS" signature="getlocal(java.lang.String)[pri:0, instance:RestBasics.restGet@d44fc21]" name="getlocal" duration-ms="2368" started-at="2020-06-08T11:16:19 EDT" finished-at="2020-06-08T11:16:22 EDT">
           <params>
             <param index="0">
               <value>
                 <![CDATA[http://localhost:3000/posts]]>
               </value>
             </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\\\mySelenium\\\\projects\\\\RestAssuredLearning\\\\src\\\\test\\\\resources\\\\InputBook.xlsx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Post]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putdata -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:RestBasics.restPost@1f554b06]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-05T17:36:04 EDT" finished-at="2020-06-05T17:36:04 EDT">
+        </test-method> <!-- getlocal -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:RestBasics.restGet@d44fc21]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-06-08T11:16:22 EDT" finished-at="2020-06-08T11:16:22 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- RestBasics.restPost -->
+      </class> <!-- RestBasics.restGet -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

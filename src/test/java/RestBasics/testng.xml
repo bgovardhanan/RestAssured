@@ -12,7 +12,7 @@
     <parameter name="postsheet" value="Post" />
     <classes>
    
-       <class name="RestBasics.restPost"/>
+       <class name="RestBasics.restGet"/>
        
     </classes>
   </test> <!-- Test -->
